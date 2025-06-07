@@ -31,7 +31,7 @@ if (contraseña === 123456) {
      console.log("contraseña correcta");
  } else {
      console.log("contraseña incorrecta");
-// }
+}
 
 
 
@@ -106,7 +106,7 @@ console.log("Resultado NOT: " + resultadoNot);
 let x = 10;
 let y = 20;
 let esIgual = x == y; // Igualdad
-let esIdentico = x === y; // Identidad
+let esIdenticoXY = x === y; // Identidad
 let esDiferente = x != y; // Diferencia
 let esMayor = x > y; // Mayor que
 let esMenor = x < y; // Menor que
@@ -114,7 +114,7 @@ let esMayorOIgual = x >= y; // Mayor o igual que
 let esMenorOIgual = x <= y; // Menor o igual que
 
 console.log("Es igual: " + esIgual);
-console.log("Es idéntico: " + esIdentico);
+console.log("Es idéntico: " + esIdenticoXY);
 console.log("Es diferente: " + esDiferente);
 console.log("Es mayor: " + esMayor);
 console.log("Es menor: " + esMenor);
