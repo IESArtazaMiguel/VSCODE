@@ -72,7 +72,6 @@ if (contraseña === 123456) {
 //     i++
 // } while (i <= 10)
 
-
 let num1 = parseFloat(prompt("Ingrese el primer número: "));
 let num2 = parseFloat(prompt("Ingrese el segundo número: "));
 let num3 = parseFloat(prompt("Ingrese el tercer número: "));
