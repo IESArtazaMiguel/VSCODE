@@ -9,7 +9,7 @@ if (contraseña === 123456) {
     console.log("Contraseña incorrecta");   
 }
 
-//numeros positivos positivos, negativos y cero
+//numeros positivos, negativos y cero
 let numero = parseInt(prompt("Ingrese un número: "));  
 if (numero > 0) {
     console.log("El número es positivo");
@@ -84,7 +84,8 @@ do {
 for (let j = 1; j <= 100; j++) {
     console.log(j);
 }
-//Usar un ciclo for para imprimir los números del 1 al 100, pero solo los múltiplos de 3
+//Usar un ciclo for para imprimir los números del 1 al 100, pero solo 
+// los múltiplos de 3
 for (let k = 1; k <= 300; k++) {
     if (k % 3 === 0) {
         console.log(k);
@@ -143,7 +144,6 @@ let notOperation = !a; // NOT
 console.log("Resultado AND: " + andOperation);
 console.log("Resultado OR: " + orOperation);
 console.log("Resultado NOT: " + notOperation);
-
 
 //Operadores aritméticos
 let aNum = 10;
