@@ -1,5 +1,6 @@
 //plantilla principal de todos los proyectos
 console.log("Hello, World!");
+
 //contraseña correcta
 let contraseña = parseInt(prompt("Ingrese su contraseña: ")); 
 if (contraseña === 123456) {
@@ -103,19 +104,19 @@ let num2 = parseFloat(prompt("Ingrese el segundo número: "));
 let num3 = parseFloat(prompt("Ingrese el tercer número: "));
 let suma1 = num1 + num2;
 let operacion = num1 + num2 - num3;
-let resta = num1 - num2;    
-let multiplicacion = num1 * num2;
-let division = num1 / num2; 
-let potencia = num1 ** num2;
-let modulo = num1 % num2;
-let raizCuadrada = Math.sqrt(num1);
+let differenceBetweenNum1AndNum2 = num1 - num2;    
+let multiplicacion1 = num1 * num2;
+let division1 = num1 / num2; 
+let potencia1 = num1 ** num2;
+let modulo1 = num1 % num2;
+let raizCuadrada1 = Math.sqrt(num1);
 console.log("Suma: " + suma1);
-console.log("Resta: " + resta); 
-console.log("Multiplicación: " + multiplicacion);
-console.log("División: " + division);   
-console.log("Potencia: " + potencia);
-console.log("Módulo: " + modulo);   
-console.log("Raíz cuadrada: " + raizCuadrada);
+console.log("Resta: " + differenceBetweenNum1AndNum2); 
+console.log("Multiplicación: " + multiplicacion1);
+console.log("División: " + division1);   
+console.log("Potencia: " + potencia1);
+console.log("Módulo: " + modulo1);   
+console.log("Raíz cuadrada: " + raizCuadrada1);
 console.log("Operación: " + operacion);
 //Operaciones matemáticas con números fijos
 let num4 = parseFloat(prompt("Ingrese el primer número fijo: "));
@@ -142,3 +143,37 @@ let notOperation = !a; // NOT
 console.log("Resultado AND: " + andOperation);
 console.log("Resultado OR: " + orOperation);
 console.log("Resultado NOT: " + notOperation);
+
+
+//Operadores aritméticos
+let aNum = 10;
+let bNum = 5;
+let suma = aNum + bNum; // Suma
+let resta = aNum - bNum; // Resta
+let multiplicacion = aNum * bNum; // Multiplicación
+let division = aNum / bNum; // División
+let potencia = aNum ** bNum; // Potencia
+let modulo = aNum % bNum; // Módulo
+let raizCuadrada = Math.sqrt(aNum); // Raíz cuadrada
+console.log("Suma: " + suma);
+console.log("Resta: " + resta);
+console.log("Multiplicación: " + multiplicacion);
+console.log("División: " + division);
+console.log("Potencia: " + potencia);
+console.log("Módulo: " + modulo);
+console.log("Raíz cuadrada: " + raizCuadrada);
+//Operadores de comparación
+let x = 10;
+let y = 20;
+let isEqual = x === y; // Igualdad
+let isNotEqual = x !== y; // Desigualdad
+let isGreater = x > y; // Mayor que
+let isLess = x < y; // Menor que
+let isGreaterOrEqual = x >= y; // Mayor o igual que
+let isLessOrEqual = x <= y; // Menor o igual que
+console.log("Es igual: " + isEqual);
+console.log("Es diferente: " + isNotEqual);
+console.log("Es mayor: " + isGreater);
+console.log("Es menor: " + isLess);
+console.log("Es mayor o igual: " + isGreaterOrEqual);
+console.log("Es menor o igual: " + isLessOrEqual);
